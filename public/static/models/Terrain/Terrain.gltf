@@ -1,0 +1,212 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC3",
+      "max": [
+        5.0,
+        1.1102230246251565E-16,
+        5.0
+      ],
+      "min": [
+        -5.0,
+        -1.1102230246251565E-16,
+        -5.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC4",
+      "max": [
+        -1.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 600,
+      "type": "SCALAR",
+      "max": [
+        120.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2020.3.0f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Terrain.bin",
+      "byteLength": 8208
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1452
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1452,
+      "byteLength": 1452
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2904,
+      "byteLength": 1936
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4840,
+      "byteLength": 968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5808,
+      "byteLength": 2400
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.250862181,
+          0.375,
+          0.5019608
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "alphaMode": "BLEND",
+      "name": "Demo_Water_Material"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Water"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        -20.3985138,
+        270.659271,
+        41.47733
+      ],
+      "name": "Terrain"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        100.0,
+        1.0,
+        100.0
+      ],
+      "translation": [
+        520.3985,
+        -230.659271,
+        -541.477356
+      ],
+      "name": "Water"
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        20.3985138,
+        -364.559265,
+        -41.47733
+      ],
+      "name": "Demo_Terrain"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Terrain"
+    }
+  ]
+}
